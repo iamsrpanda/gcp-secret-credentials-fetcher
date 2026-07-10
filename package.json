@@ -1,0 +1,39 @@
+{
+  "name": "gcp-secret-credentials-fetcher",
+  "version": "1.1.0",
+  "description": "A lightweight helper utility to retrieve and automatically parse JSON secrets from Google Cloud Secret Manager.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "gcp",
+    "google-cloud",
+    "secret-manager",
+    "secrets",
+    "credentials",
+    "utility",
+    "json-parser"
+  ],
+  "author": "Smrutiranjan Panda",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamsrpanda/gcp-secret-credentials-fetcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iamsrpanda/gcp-secret-credentials-fetcher/issues"
+  },
+  "homepage": "https://github.com/iamsrpanda/gcp-secret-credentials-fetcher#readme",
+  "dependencies": {
+    "@google-cloud/secret-manager": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

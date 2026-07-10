@@ -1,6 +1,6 @@
 {
   "name": "gcp-secret-credentials-fetcher",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A lightweight helper utility to retrieve and automatically parse JSON secrets from Google Cloud Secret Manager.",
   "main": "index.js",
   "types": "index.d.ts",
